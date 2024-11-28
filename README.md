@@ -1,5 +1,7 @@
 # Infra geral para os serviços
 
+Infra geral para os serviços do sistema da lanchonete.
+
 ## O que é o projeto
 
 Há uma lanchonete de bairro que está se expandindo devido ao seu grande sucesso.
