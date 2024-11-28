@@ -1,2 +1,2 @@
-subnet_ids            = ["subnet-0fd723cd605f4c049",  "subnet-06c90b5e65da51231"]
-vpc_id                = "vpc-007bf817d559fa74d"
+subnet_ids            = ["subnet-072294e19e1c05ea4",  "subnet-00890da9b0ab1bb00"]
+vpc_id                = "vpc-04c65ba98c63ff91f"
