@@ -7,7 +7,7 @@ resource "aws_ecr_repository" "lanchonete_apipagamento" {
 }
 
 resource "aws_ecr_repository" "lanchonete_apiproduto" {
-  name                 = "lanchonete-apipagamento"
+  name                 = "lanchonete-apiproduto"
   image_tag_mutability = "MUTABLE" 
   lifecycle {
     ignore_changes = [image_tag_mutability]
