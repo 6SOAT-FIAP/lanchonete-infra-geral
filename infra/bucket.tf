@@ -1,8 +1,10 @@
-resource "aws_s3_bucket" "lanchonete_bucket" {
-  bucket = "lanchonete-cezar-bucket"  
-  acl    = "private"          
+resource "aws_s3_bucket" "bucket" {
+  bucket = "lanchonete-cezar-bucket"
+}
 
-  versioning {
-    enabled = true 
+resource "aws_s3_bucket_versioning" "versioning" {
+  bucket = aws_s3_bucket.bucket.id
+  versioning_configuration {
+    status = "Enabled"
   }
 }
